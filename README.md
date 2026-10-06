@@ -12,21 +12,6 @@ A SQL-based healthcare data analysis project exploring hospital records, patient
 
 ---
 
-## 📁 Repository Structure
-```text
-project_3/
-├── data/
-│   ├── admissions.csv       # Admission dates, discharge dates, diagnoses, doctor IDs
-│   ├── doctors.csv          # Doctor names and medical specialties
-│   ├── patients.csv         # Patient demographics, height, weight, province, allergies
-│   └── province_names.csv   # Canadian province codes and names
-├── hospital.sql             # SQL schema creation & analytical queries
-├── Medical_Data_History.pdf # Project requirements & problem statements
-└── README.md                # Project documentation
-```
-
----
-
 ## 🗄️ Database Schema & Datasets
 - **`patients`**: `patient_id`, `first_name`, `last_name`, `gender`, `birth_date`, `city`, `province_id`, `allergies`, `height`, `weight`
 - **`admissions`**: `patient_id`, `admission_date`, `discharge_date`, `diagnosis`, `attending_doctor_id`
