@@ -20,7 +20,7 @@ project_3/
 │   ├── doctors.csv          # Doctor names and medical specialties
 │   ├── patients.csv         # Patient demographics, height, weight, province, allergies
 │   └── province_names.csv   # Canadian province codes and names
-├── hospital.sql             # SQL schema creation & 34 analytical queries
+├── hospital.sql             # SQL schema creation & analytical queries
 ├── Medical_Data_History.pdf # Project requirements & problem statements
 └── README.md                # Project documentation
 ```
