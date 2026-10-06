@@ -10,6 +10,20 @@ A SQL-based healthcare data analysis project exploring hospital records, patient
 - **Source Data:** Provided in CSV format under [`data/`](file:///c:/Users/ugale/Naresh%20IT/8_Projects/project_3/data).
 - **Queries:** Comprehensive SQL solutions covering 34 analytical questions in [`hospital.sql`](file:///c:/Users/ugale/Naresh%20IT/8_Projects/project_3/hospital.sql).
 
+---
+
+## 📁 Repository Structure
+```text
+project_3/
+├── data/
+│   ├── admissions.csv       # Admission dates, discharge dates, diagnoses, doctor IDs
+│   ├── doctors.csv          # Doctor names and medical specialties
+│   ├── patients.csv         # Patient demographics, height, weight, province, allergies
+│   └── province_names.csv   # Canadian province codes and names
+├── hospital.sql             # SQL schema creation & analytical queries
+├── Medical_Data_History.pdf # Project requirements & problem statements
+└── README.md                # Project documentation
+```
 
 ---
 
